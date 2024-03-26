@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Scribble&display=swap');
+
+@media  (max-width: 768px) {
+  #pc_view {
+    display: none; 
+  }
+  #mobile_view {
+    display: block; 
+  }
+  .logo h2{
+	font-size: 15px;
+	color: white;
+  }
+  .container{
+	flex-direction: column;
+  }
+  .card-container{
+	flex-direction: column;
+  }
+  .card{
+	width: 500px;
+	margin-top: 10px;
+  }
+  
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center; 
+}
+
+.logo h2 {
+  font-family: "Rubik Scribble", sans-serif; 
+  font-weight: 400;
+  font-style: normal;
+  margin: 0; 
+  color: rgb(246, 0, 0);
+  margin-top: 10px;
+}
+
+#pc_view {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0; 
+}
+
+nav ul li {
+  margin-left: 10px;
+}
+
+nav ul li a {
+  font-family: "Arial", sans-serif;
+  text-decoration: none;
+  color: rgb(255, 131, 152);
+}
+
+nav ul li a:hover {
+  transition: 0.5s; 
+  font-size: 15px; 
+  color: rgb(180, 61, 81);
+}
+
+#mobile_view{
+	display: none;
+}

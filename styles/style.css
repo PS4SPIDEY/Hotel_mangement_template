@@ -2,3 +2,37 @@
 @import url('contact.css');
 @import url('home.css');
 @import url('about.css');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Scribble&display=swap');
+
+.project{
+margin-top: 200px;
+}
+.one{
+	opacity: 0;
+}
+.oneshow{
+	transition: 1s;
+	opacity: 1;
+}
+.card-content{
+	display: grid;
+	grid-template-columns: repeat(3,400px);
+}
+.card-item{
+
+	padding: 10px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+	border-radius: 8px;
+}
+
+.card-item p{
+	text-align: justify;
+}
+.card-item h3{
+	font-family: 'inset',sans-serif;
+}
+.card-item:hover{
+	transition: 2s;
+	background-color: rgb(0, 123, 255);
+	color: white;
+}
